@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+/* --- 全体の背景・テキスト --- */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E2E9AD; /* ページの背景色 */
+    color: #000000; /* 全体の文字色 */
+}
+
+/* --- コンテナ --- */
+#container {
+    width: 780px; /* ページの幅 */
+    margin: 0 auto; /* センタリング */
+    background-color: #E2E9AD; /* ページの背景色 */
+}
+
+/* --- ヘッダ --- */
+#header {
+    margin: 10px 0 0 10px;
+    background-color: #E2E9AD; /* ページの背景色 */
+    height: 50px; /* サイドバーの高さ */
+    font-size: 16pt; /* 全体の文字サイズ */
+    color: #278244; /* 文字の色 */
+}
+
+/* --- ナビゲーション --- */
+#nav {
+    margin: 0 10px;
+    padding: 10px 0;
+    background-color: #61B181; /* ページの背景色 */
+    float: left;
+    font-size: 10pt;
+    width: 160px; /* サイドバーの幅 */
+    height: 100%; /* サイドバーの高さ */
+}
+
+#language {
+    padding: 0 10px;
+    color: #FFFFFF; /* 文字の色 */
+}
+
+/* --- メインカラム --- */
+#content {
+    padding: 10px 20px;
+    float: left;
+    width: 560px; /* メインカラムの幅 */
+    height: 100%; /* メインカラムの高さ */
+    background-color: #ffffff; /* メインカラムの背景色 */
+}
+
+#subtitle {
+    margin: 10px 0;
+    padding: 10px;
+    border: thin solid #ff0000;
+    color: #278244; /* 文字の色 */
+}
+
+/* --- フッタ --- */
+#footer {
+    clear: left; /* フロートのクリア */
+    width: 100%;
+    height: 50px;
+    background-color: #E2E9AD; /* ページの背景色 */
+}
+
